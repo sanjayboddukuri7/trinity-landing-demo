@@ -1,22 +1,31 @@
 # Trinity Landing (Demo)
 
-A demo product landing page by [Trinity Tech](https://trinity-tech.vercel.app), built to show clients what a launch page can look like.
+A demo by [Trinity Tech](https://trinity-tech.vercel.app) that explains **what a landing page is** and shows **5 working landing page models** for different kinds of business.
 
-The page advertises **Pulse**, a made-up habit app. Every name, price, number and review is a sample.
+## Home page
 
-- Hero with headline, animated phone mockup, waitlist form and a live launch countdown
-- Stats band, 6 features, "how it works" in 3 steps
-- Pricing with a monthly / yearly toggle
-- Testimonials and an FAQ accordion
-- Final call to action, footer and a WhatsApp chat button
-- Sticky menu with smooth scrolling to each section, scroll animations, mobile menu
-- "Demo by Trinity Tech" ribbon at the top and a footer linking to Trinity Tech
+- What a landing page is (one page, one goal) and a diagram of how ads, QR codes and WhatsApp links lead to enquiries
+- Website vs landing page
+- Cards for each model: who uses it and what it is built to achieve
+- What every landing page includes, and where businesses share it
 
-No backend, database or API keys. The waitlist form only saves to the visitor's browser and sends no email.
+## The 5 models
 
-## Edit the content
+| # | Model | Made-up business | Goal |
+|---|---|---|---|
+| 1 | App / product launch | Pulse (habit app) | Waitlist sign-ups |
+| 2 | Coaching course | SpeakUp Academy | Free demo class bookings |
+| 3 | Real estate project | Green Meadows | Site visit bookings |
+| 4 | Shop festival sale | Rangoli Fashions | Offers on WhatsApp, store visits |
+| 5 | Event registration | TechFest 2026 | Registrations and passes |
 
-All text lives in `src/content.ts`: product name, features, steps, plans, reviews, FAQs and stats.
+Each model has its own colours, hero illustration, lead form, countdown, stats, features, steps, pricing, reviews, FAQ, final call to action and WhatsApp button. A gold bar on every page says it is a demo, which model it is, and links to the other models.
+
+Every business, price, number and review is made up. Forms only save in the visitor's browser: nothing is sent anywhere.
+
+## Edit or add a model
+
+All model content is in `src/models/index.ts`. Copy a model, change its text and colours (`theme`), and pick a hero visual (`phone`, `course`, `property`, `sale` or `ticket`).
 
 ## Run locally
 
