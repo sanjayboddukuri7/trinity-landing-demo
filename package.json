@@ -1,0 +1,28 @@
+{
+  "name": "trinity-landing-demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Trinity Landing (Demo) — a sample product landing page built by Trinity Tech.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 3300",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^1.80.0",
+    "motion": "^14.14.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.3",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "autoprefixer": "^10.7.0",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}
