@@ -1,6 +1,6 @@
-# Trinity Landing (Demo)
+# Trinity Landing (Prototype)
 
-A demo by [Trinity Tech](https://trinity-tech.vercel.app) that explains **what a landing page is** and shows **5 working landing page models** for different kinds of business.
+A prototype by [Trinity Tech](https://trinity-tech.vercel.app) that explains **what a landing page is** and shows **5 working landing page models** for different kinds of business.
 
 ## Home page
 
@@ -19,7 +19,7 @@ A demo by [Trinity Tech](https://trinity-tech.vercel.app) that explains **what a
 | 4 | Shop festival sale | Rangoli Fashions | Offers on WhatsApp, store visits |
 | 5 | Event registration | TechFest 2026 | Registrations and passes |
 
-Each model has its own colours, hero illustration, lead form, countdown, stats, features, steps, pricing, reviews, FAQ, final call to action and WhatsApp button. A gold bar on every page says it is a demo, which model it is, and links to the other models.
+Each model has its own colours, hero illustration, lead form, countdown, stats, features, steps, pricing, reviews, FAQ, final call to action and WhatsApp button. A gold bar on every page says it is a prototype, which model it is, and links to the other models.
 
 Every business, price, number and review is made up. Forms only save in the visitor's browser: nothing is sent anywhere.
 

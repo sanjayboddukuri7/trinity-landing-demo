@@ -38,14 +38,14 @@ const CHANNELS = [
 export function Gallery() {
   useTheme(GOLD_THEME);
   useEffect(() => {
-    document.title = 'Trinity Landing (Demo) — landing page models by Trinity Tech';
+    document.title = 'Trinity Landing (Prototype) — landing page models by Trinity Tech';
   }, []);
 
   return (
     <div className="bg-[#0F0D0A] text-white">
       <div role="note" className="bg-gradient-to-r from-[#b8741a] via-[#e8a33d] to-[#f6d28a] text-[#1b1407] text-[12.5px]">
         <div className="wrap py-2 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-center">
-          <span className="rounded-full bg-[#1b1407] text-gold-light px-2 py-0.5 text-[10.5px] font-bold tracking-[0.14em]">DEMO</span>
+          <span className="rounded-full bg-[#1b1407] text-gold-light px-2 py-0.5 text-[10.5px] font-bold tracking-[0.14em]">PROTOTYPE</span>
           <span>Sample landing pages by Trinity Tech. Every business, price and review here is made up.</span>
         </div>
       </div>
@@ -55,7 +55,7 @@ export function Gallery() {
           <img src="/mark.png" alt="" className="w-10 h-8 object-contain drop-shadow-[0_0_10px_rgba(232,163,61,0.45)]" />
           <span className="leading-none">
             <span className="block font-brand font-bold tracking-[0.12em] text-[15px]">
-              TRINITY LANDING <span className="font-sans tracking-normal text-gold text-[13px]">(Demo)</span>
+              TRINITY LANDING <span className="font-sans tracking-normal text-gold text-[13px]">(Prototype)</span>
             </span>
             <span className="block text-[11px] text-white/50 mt-1">by Trinity Tech</span>
           </span>
@@ -208,7 +208,7 @@ export function Gallery() {
 
       <footer className="border-t border-white/10">
         <div className="wrap py-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-white/50">
-          <p><b className="text-white">Trinity Landing (Demo)</b> is a demo project by Trinity Tech.</p>
+          <p><b className="text-white">Trinity Landing (Prototype)</b> is a prototype by Trinity Tech.</p>
           <TrinityCredit dark />
         </div>
       </footer>

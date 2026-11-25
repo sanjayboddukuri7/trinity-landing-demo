@@ -31,7 +31,7 @@ export const MODELS: Model[] = [
       fields: ['email'],
       button: 'Get early access',
       success: "You're #{n} on the waitlist!",
-      note: 'Demo only: no email is sent and nothing leaves your browser.',
+      note: 'Prototype only: no email is sent and nothing leaves your browser.',
       proofBase: 1284,
       proofText: 'people already on the waitlist',
     },
@@ -64,7 +64,7 @@ export const MODELS: Model[] = [
     pricing: {
       eyebrow: 'Pricing',
       title: 'Simple pricing. Start free.',
-      text: 'Sample prices for this demo.',
+      text: 'Sample prices for this prototype.',
       plans: [
         { name: 'Free', price: '₹0', period: '/ month', note: 'Free forever', blurb: 'For trying Pulse out.', features: ['Up to 3 habits', 'Daily reminders', '7-day history'], cta: 'Join the waitlist' },
         { name: 'Pro', price: '₹149', yearlyPrice: '₹124', period: '/ month', note: 'Billed monthly', yearlyNote: 'Billed ₹1,490 yearly', blurb: 'For building real routines.', features: ['Unlimited habits', 'Smart reminders', 'Full history & charts', 'Streak freeze days', 'Home-screen widgets'], cta: 'Get early access', popular: true },
@@ -114,7 +114,7 @@ export const MODELS: Model[] = [
       fields: ['name', 'phone'],
       button: 'Book a free demo class',
       success: 'Demo class booked! You\'re booking #{n}.',
-      note: 'Demo only: nobody will call you and nothing leaves your browser.',
+      note: 'Prototype only: nobody will call you and nothing leaves your browser.',
       proofBase: 3512,
       proofText: 'students trained so far',
     },
@@ -147,7 +147,7 @@ export const MODELS: Model[] = [
     pricing: {
       eyebrow: 'Course fees',
       title: 'Choose how you want to learn.',
-      text: 'Sample fees for this demo.',
+      text: 'Sample fees for this prototype.',
       plans: [
         { name: 'Self-paced', price: '₹1,999', period: 'one-time', blurb: 'Learn with recordings at your own pace.', features: ['30 recorded lessons', 'Practice worksheets', 'Lifetime access'], cta: 'Book free demo' },
         { name: 'Live batch', price: '₹4,999', period: 'one-time', blurb: 'The full 30-day live course.', features: ['30 live classes', 'Batch of 15 students', 'Speaking rounds daily', 'Interview practice', 'Certificate'], cta: 'Book free demo', popular: true },
@@ -197,7 +197,7 @@ export const MODELS: Model[] = [
       fields: ['name', 'phone'],
       button: 'Book a free site visit',
       success: 'Site visit request received! You\'re visitor #{n} this month.',
-      note: 'Demo only: nobody will call you and nothing leaves your browser.',
+      note: 'Prototype only: nobody will call you and nothing leaves your browser.',
       proofBase: 186,
       proofText: 'families have visited this month',
     },
@@ -230,7 +230,7 @@ export const MODELS: Model[] = [
     pricing: {
       eyebrow: 'Prices',
       title: 'Pre-launch prices.',
-      text: 'Sample prices for this demo.',
+      text: 'Sample prices for this prototype.',
       plans: [
         { name: '2 BHK', price: '₹58 L', period: 'onwards', note: '1,150 sq ft', blurb: 'Ideal for young families.', features: ['2 bedrooms, 2 bathrooms', 'East and north facing options', '1 covered car parking'], cta: 'Book site visit' },
         { name: '3 BHK', price: '₹76 L', period: 'onwards', note: '1,520 sq ft', blurb: 'Our most booked home.', features: ['3 bedrooms, 3 bathrooms', 'Large balcony with garden view', 'Utility area', '1 covered car parking'], cta: 'Book site visit', popular: true },
@@ -280,7 +280,7 @@ export const MODELS: Model[] = [
       fields: ['name', 'phone'],
       button: 'Send me the offers',
       success: 'Done! You\'re #{n} on our offers list.',
-      note: 'Demo only: no WhatsApp message is sent and nothing leaves your browser.',
+      note: 'Prototype only: no WhatsApp message is sent and nothing leaves your browser.',
       proofBase: 2730,
       proofText: 'shoppers already got the offers',
     },
@@ -313,7 +313,7 @@ export const MODELS: Model[] = [
     pricing: {
       eyebrow: 'Combo offers',
       title: 'Festival combos.',
-      text: 'Sample offers for this demo.',
+      text: 'Sample offers for this prototype.',
       plans: [
         { name: 'Kids combo', price: 'Buy 2 Get 1', blurb: 'For the little ones.', features: ['Any 3 kids\' festive outfits', 'Lowest priced item free', 'Ages 1 to 14'], cta: 'Get this offer' },
         { name: 'Festive saree combo', price: '₹1,999', period: 'for 2', blurb: 'Our best-selling combo.', features: ['2 designer sarees', 'Free blouse stitching', 'Gift box packing'], cta: 'Get this offer', popular: true },
@@ -363,7 +363,7 @@ export const MODELS: Model[] = [
       fields: ['name', 'email'],
       button: 'Register now',
       success: 'You\'re registered! Your entry number is #{n}.',
-      note: 'Demo only: no pass is emailed and nothing leaves your browser.',
+      note: 'Prototype only: no pass is emailed and nothing leaves your browser.',
       proofBase: 2140,
       proofText: 'students registered so far',
     },
@@ -396,7 +396,7 @@ export const MODELS: Model[] = [
     pricing: {
       eyebrow: 'Passes',
       title: 'Pick your pass.',
-      text: 'Sample prices for this demo.',
+      text: 'Sample prices for this prototype.',
       plans: [
         { name: 'Day pass', price: '₹199', period: 'per day', blurb: 'Come for one day.', features: ['Entry to all events that day', '1 workshop', 'Food court access'], cta: 'Register now' },
         { name: 'Full fest pass', price: '₹349', period: 'both days', blurb: 'The complete TechFest.', features: ['Both days, all events', '2 workshops', 'Pro show night entry', 'Fest T-shirt'], cta: 'Register now', popular: true },

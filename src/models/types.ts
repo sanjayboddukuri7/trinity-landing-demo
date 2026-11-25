@@ -1,4 +1,4 @@
-// Shape of one landing page model. Every model is made-up sample content for the demo.
+// Shape of one landing page model. Every model is made-up sample content for the prototype.
 
 export type Field = 'name' | 'email' | 'phone';
 export type Visual = 'phone' | 'course' | 'property' | 'sale' | 'ticket';

@@ -11,7 +11,7 @@ import type { Model } from './models/types';
 export const TRINITY_URL = 'https://trinity-tech.vercel.app';
 export const START_PROJECT_URL = `${TRINITY_URL}/project?category=${encodeURIComponent('Landing Page')}`;
 export const whatsappUrl = (about: string) =>
-  `https://wa.me/917075452718?text=${encodeURIComponent(`Hi Trinity Tech, I saw ${about} in Trinity Landing (Demo) and would like a landing page for my business.`)}`;
+  `https://wa.me/917075452718?text=${encodeURIComponent(`Hi Trinity Tech, I saw ${about} in Trinity Landing (Prototype) and would like a landing page for my business.`)}`;
 
 const ICONS: Record<string, LucideIcon> = {
   activity: Activity, mic: Mic, building: Building2, shopping: ShoppingBag, ticket: Ticket, flame: Flame, bell: Bell,
@@ -133,11 +133,11 @@ export function useCountdown(slug: string, days: number) {
   return { days: Math.floor(s / 86400), hours: Math.floor((s % 86400) / 3600), mins: Math.floor((s % 3600) / 60), secs: s % 60, target };
 }
 
-/* ---------- Trinity demo chrome ---------- */
+/* ---------- Trinity prototype chrome ---------- */
 
 const GOLD = 'bg-gradient-to-r from-[#b8741a] via-[#e8a33d] to-[#f6d28a] text-[#1b1407]';
 
-/** Top bar on every model: says it is a demo, which model it is, and links between models. */
+/** Top bar on every model: says it is a prototype, which model it is, and links between models. */
 export function ModelBar({ model, index, total, prev, next }: { model: Model; index: number; total: number; prev?: Model; next?: Model }) {
   return (
     <div role="note" className={`${GOLD} text-[12.5px]`}>
@@ -146,7 +146,7 @@ export function ModelBar({ model, index, total, prev, next }: { model: Model; in
           <LayoutGrid className="w-3.5 h-3.5" /> All landing page models
         </a>
         <span className="flex items-center gap-2 text-center">
-          <span className="rounded-full bg-[#1b1407] text-gold-light px-2 py-0.5 text-[10.5px] font-bold tracking-[0.14em]">DEMO</span>
+          <span className="rounded-full bg-[#1b1407] text-gold-light px-2 py-0.5 text-[10.5px] font-bold tracking-[0.14em]">PROTOTYPE</span>
           <span>
             Model {index + 1} of {total}: <b>{model.kind}</b> · goal: {model.goal.toLowerCase()}
           </span>

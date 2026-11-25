@@ -25,7 +25,7 @@ export function LandingTemplate({ model }: { model: Model }) {
   useTheme(model.theme);
   const index = MODELS.indexOf(model);
   useEffect(() => {
-    document.title = `${model.name} · ${model.kind} — Trinity Landing (Demo)`;
+    document.title = `${model.name} · ${model.kind} — Trinity Landing (Prototype)`;
   }, [model]);
 
   return (
@@ -372,7 +372,7 @@ function Testimonials({ model }: { model: Model }) {
   return (
     <section className="py-20 sm:py-28 bg-paper">
       <div className="wrap">
-        <SectionHead eyebrow="Reviews" title={model.testimonials.title} text="Sample reviews for this demo." />
+        <SectionHead eyebrow="Reviews" title={model.testimonials.title} text="Sample reviews for this prototype." />
         <div className="grid md:grid-cols-3 gap-5">
           {model.testimonials.items.map((t, i) => (
             <Reveal key={t.name} delay={i * 0.08} className="h-full">
@@ -457,7 +457,7 @@ function Footer({ model, next }: { model: Model; next?: Model }) {
           <Logo model={model} />
           <p className="mt-3 text-sm text-ink-muted max-w-md">
             This is a sample <b className="text-ink">{model.kind.toLowerCase()}</b> landing page from{' '}
-            <a href="#/" className="font-semibold text-brand hover:underline">Trinity Landing (Demo)</a> by{' '}
+            <a href="#/" className="font-semibold text-brand hover:underline">Trinity Landing (Prototype)</a> by{' '}
             <a href={TRINITY_URL} target="_blank" rel="noreferrer" className="font-semibold text-brand hover:underline">Trinity Tech</a>.
             {' '}{model.name} and everything on this page are made up.
           </p>
